@@ -4,3 +4,41 @@
     border: 0;
     box-sizing: border-box;
 }
+
+header{
+display: flex;  
+background-color: #446e6e;
+border-radius: 0.5em;
+color: #fff;
+height: 8em;
+justify-content: center;
+align-items: center;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+}
+
+nav{
+    display: flex;
+    gap: 15em;
+    align-items: center;
+}
+
+a{
+    color: #fff;
+    text-decoration: underline;
+}
+
+main
+{
+margin-top: 10em;
+}
+
+main h1{
+    color:#446e6e
+}
+
+h1{
+    color:#fff
+}
