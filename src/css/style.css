@@ -7,9 +7,9 @@
 
 header{
 display: flex;  
-background-color: #446e6e;
-border-radius: 0.5em;
-color: #fff;
+background-color: #ffe84f;
+border-radius: 2rem;
+color: #364ea0;
 height: 8em;
 justify-content: center;
 align-items: center;
@@ -17,16 +17,24 @@ position: fixed;
 top: 0;
 left: 0;
 right: 0;
+height: 5em;
+}
+
+header h1{
+    border-bottom: 0.5em;
+    color: #273d88;
 }
 
 nav{
     display: flex;
     gap: 15em;
     align-items: center;
+    border-top: 0.2em;
+    padding-bottom: 2em;
 }
 
 a{
-    color: #fff;
+    color: #273d88;
     text-decoration: underline;
 }
 
@@ -36,9 +44,27 @@ margin-top: 10em;
 }
 
 main h1{
-    color:#446e6e
+    color:#273d88;
 }
 
 h1{
     color:#fff
+}
+
+p{
+    background-color: #d78aac;
+    border-radius: 0.5em;
+}
+
+footer{
+    display: flex;
+    background-color: #fde544;
+    border-radius: 0.5em;
+    color: #1d306e;
+    height: 8em;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
