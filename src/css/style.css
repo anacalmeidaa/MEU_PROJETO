@@ -4,6 +4,7 @@
     border: 0;
     box-sizing: border-box;
     font-size: 1.5rem;
+    scroll-behavior: smooth;
 }
 
 header{
@@ -23,10 +24,14 @@ header{
     left: 0;
     right: 0;
 }
+body{
+    background-color: #faf2d7;
+}
 
 header h1{
     border-bottom: 0.5em;
-    color: #ffffff;
+    color: white;
+   
 }
 
 nav{
@@ -35,6 +40,8 @@ nav{
     align-items: center;
     border-top: 0.2em;
     padding-bottom: 2em;
+    color: white;
+  
 }
 
 a{
@@ -43,7 +50,8 @@ a{
 }
 
 main a{
-    text-decoration: none;
+    text-decoration: none; 
+   
 }
 
 main
@@ -52,16 +60,16 @@ margin-top: 4em;
 }
 
 main h1{
-    color:#0b1230;
+    color:#444d74;
     text-align: center;
 }
 
 h1{
-    color:#fff
+    color:#444d74;
 }
 
 h2{
-    color: #0b1230;
+    color: #444d74;
     padding-left: 1rem;
 }
 ul{
@@ -80,8 +88,8 @@ p{
 }
 
 img{
-    padding-top: 1.5rem;
-    padding-bottom: 0.1rem;
+    margin-top: 3rem;
+    border-radius: 20px;
 }
 
 img, p{
@@ -91,6 +99,8 @@ img, p{
 
 a{
     padding-top: 0.1rem;
+    padding-bottom: 3%;
+    color: #444d74;
 }
 
 .ul2{
@@ -101,6 +111,10 @@ a{
     justify-content: center;
     gap: 3rem;
     flex-direction: column;
+}
+
+ul img{
+    border-radius: 0.3rem;
 }
 
 footer{
@@ -115,3 +129,4 @@ footer{
     left: 0;
     right: 0;
 }
+
