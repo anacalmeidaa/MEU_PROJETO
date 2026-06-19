@@ -10,7 +10,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background-color: #eeec99be;
+    background-color: #e7e6c6d7;
 }
 
 header{
@@ -31,12 +31,12 @@ header{
     right: 0;
 }
 body{
-    background-color: #faf2d7;
+    background-color: #e7eac46b;
 }
 
 header h1{
     border-bottom: 0.5em;
-    color: white;
+    color: #ffffff;
    
 }
 
@@ -44,11 +44,12 @@ nav{
     display: flex;
     gap: 15em;
     align-items: center;
+    text-align: center;
+    justify-content: center;
     border-top: 0.2em;
     padding-bottom: 2em;
-    color: white;
-  
-}
+    color: rgb(0, 0, 0);
+    }
 
 
 a{
@@ -96,7 +97,7 @@ p{
 
 img{
     margin-top: 3rem;
-    border-radius: 20px;
+    border-radius: 5px;
 }
 
 img, p{
@@ -130,7 +131,7 @@ table{
     width: 80rem;
     border: 0.3rem solid #242e58;
     border-radius: 5rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 }
 
 th{
@@ -139,9 +140,16 @@ th{
     padding: 0.5rem;
 }
 
-tr:hover{
+tr:hover:nth-child(even){
+    background-color: #242e58;
+    color: white;
+    height: 100%;
+}
+
+tr:hover:nth-child(odd){
     background-color: #242e58;
     height: 100%;
+    color: white;
 }
 
 tr:nth-child(even){
@@ -156,10 +164,17 @@ tr td{
 }
 
 .legenda{
+    display: flex;
+    justify-content: center;
     text-align: center;
-    color: #e7e7e7;
+    color: #161c51;
     font-size: 1rem;
     padding-top: 0.5rem;
+    margin-top: 0rem;
+}
+
+h3{
+    margin-left: 5rem;
 }
 
 footer{
