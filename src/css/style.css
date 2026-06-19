@@ -4,6 +4,7 @@
     border: 0;
     box-sizing: border-box;
     font-size: 1.5rem;
+    scroll-behavior: smooth;
 }
 html{
     scroll-behavior: smooth;
@@ -29,10 +30,14 @@ header{
     left: 0;
     right: 0;
 }
+body{
+    background-color: #faf2d7;
+}
 
 header h1{
     border-bottom: 0.5em;
-    color: #ffffff;
+    color: white;
+   
 }
 
 nav{
@@ -41,6 +46,8 @@ nav{
     align-items: center;
     border-top: 0.2em;
     padding-bottom: 2em;
+    color: white;
+  
 }
 
 
@@ -50,7 +57,8 @@ a{
 }
 
 main a{
-    text-decoration: none;
+    text-decoration: none; 
+   
 }
 
 main
@@ -64,7 +72,7 @@ main h1{
 }
 
 h1{
-    color:#fff
+    color:#444d74;
 }
 
 h2{
@@ -87,8 +95,8 @@ p{
 }
 
 img{
-    padding-top: 1.5rem;
-    padding-bottom: 0.1rem;
+    margin-top: 3rem;
+    border-radius: 20px;
 }
 
 img, p{
@@ -166,3 +174,4 @@ footer{
     left: 0;
     right: 0;
 }
+
